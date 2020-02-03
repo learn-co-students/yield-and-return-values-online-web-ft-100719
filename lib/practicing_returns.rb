@@ -1,6 +1,6 @@
 require 'pry'
 
-def hello(array)
+def hello(array) 
   i = 0
   while i < array.length
     yield(array[i])
